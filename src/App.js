@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import District from './components/District/District';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <District name="Netrokona" specialty="Beautiful"></District>
+      <District name="Dhaka" specialty="Boring city"></District>
     </div>
   );
 }
